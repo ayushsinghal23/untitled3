@@ -10,8 +10,7 @@ public class Main11 {
         scanner.close();
         for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) == word) {
-                System.out.println(i + 1);
-
+                System.out.println(i);
             }
 
         }
